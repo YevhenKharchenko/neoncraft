@@ -1,8 +1,8 @@
 .cookie-banner-section {
-  background: #716d6c;
+  background: #10507c;
   width: 100%;
   max-width: 375px;
-  padding: 40px 36px 46px 36px;
+  padding: 40px 16px;
   margin: 0 auto;
   position: fixed;
   bottom: 0;
@@ -14,7 +14,6 @@
 
   @include media(desktop) {
     max-width: 1440px;
-    padding: 70px 120px;
   }
 }
 
@@ -24,19 +23,16 @@
 }
 
 .cookie-banner-text {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
+  letter-spacing: 0.01em;
   text-align: center;
-  color: #fcfcfc;
-  max-width: 303px;
-  margin-left: auto;
-  margin-right: auto;
+  color: #fffdfd;
   margin-bottom: 44px;
 
   @include media(desktop) {
-    max-width: max-content;
     margin-bottom: 40px;
   }
 }
@@ -53,34 +49,32 @@
 }
 
 .cookie-decline-btn {
-  border-bottom: 1px solid #cbc7c4;
+  border-bottom: 2px solid #6a93b9;
   padding: 10px;
-  background: transparent;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   text-align: center;
-  color: #fcfcfc;
-  text-transform: uppercase;
+  color: #fffdfd;
   width: 100%;
-  max-width: 142px;
+  max-width: 140px;
 
   @include media(desktop) {
   }
 }
 
 .cookie-accept-btn {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: #fcfcfc;
-  border-radius: 62px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: #081d2c;
+  border-radius: 12px;
   padding: 10px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 14px;
   text-align: center;
-  color: #222;
+  color: #fffdfd;
   width: 100%;
-  max-width: 141px;
+  max-width: 140px;
 
   @include media(desktop) {
   }
