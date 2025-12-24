@@ -1,0 +1,87 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
+
+.section {
+  scroll-margin-top: 30px;
+
+  @include media(desktop) {
+    scroll-margin-top: 20px;
+  }
+}
+
+.section-title-wrapper {
+  background: #10507c;
+  padding: 48px 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include media(desktop) {
+  }
+}
+
+.section-title {
+  font-family: 'Wendy One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #e9c125 0%, #f8ecb8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include media(desktop) {
+  }
+}
+
+.section-subtitle {
+  font-family: 'Wendy One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #081d2c;
+
+  @include media(desktop) {
+  }
+}
