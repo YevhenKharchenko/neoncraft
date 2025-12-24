@@ -52,13 +52,24 @@ html {
 
 .section-title-wrapper {
   background: #10507c;
-  padding: 48px 16px 24px;
+  padding: 48px 0 24px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  background-image: url(../img/about/line-mob.png);
+  background-repeat: no-repeat;
+  background-position: top 61px center;
+  background-size: auto;
 
   @include media(desktop) {
+    background-image: url(../img/about/line-desk.png);
   }
+}
+
+.section-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-title {
@@ -81,6 +92,7 @@ html {
   font-size: 24px;
   text-align: center;
   color: #081d2c;
+  margin-bottom: 32px;
 
   @include media(desktop) {
   }

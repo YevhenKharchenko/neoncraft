@@ -1,7 +1,15 @@
-.benefits-section {
+.progression-section {
 }
 
-.benefits-bg-wrapper {
+.progression-title {
+  max-width: 177px;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.progression-bg-wrapper {
   background: linear-gradient(180deg, #10507c 0%, #6a93b9 100%);
   padding-top: 40px;
   padding-bottom: 48px;
@@ -12,69 +20,67 @@
   }
 }
 
-.benefits-container {
+.progression-container {
 }
 
-.benefits-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
+.progression-subtitle {
+  color: #fffdfd;
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.progression-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: row;
     gap: 32px;
   }
 }
 
-.benefits-list-item {
+.progression-list-item {
   background: #6a93b9;
   border: 2px solid #e9c125;
   border-radius: 16px;
-  padding: 6px;
+  padding: 10px 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  max-width: 160px;
-  min-height: 220px;
+  width: 100%;
+  max-width: 330px;
+  min-height: 140px;
 
   @include media(desktop) {
     padding: 6px 22px;
     gap: 16px;
-    max-width: 240px;
-    min-height: 228px;
+    max-width: 260px;
+    min-height: 180px;
   }
 }
 
-.benefits-img {
+.progression-img {
   @include media(desktop) {
   }
 }
 
-.benefits-item-title {
-  font-family: 'Wendy One', sans-serif;
-  font-weight: 400;
+.progression-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   font-size: 16px;
   text-align: center;
   color: #081d2c;
 
   @include media(desktop) {
-    font-size: 18px;
-  }
-}
-
-.benefits-item-text {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33333;
-  letter-spacing: 0.01em;
-  text-align: center;
-  color: #081d2c;
-
-  @include media(desktop) {
-    font-size: 14px;
   }
 }
