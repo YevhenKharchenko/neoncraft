@@ -30,5 +30,8 @@
       <path fill="none" stroke="#e9c125" stroke-width="1.333" d="M5.333.667h21.333a4.667 4.667 0 0 1 4.667 4.667v21.333a4.667 4.667 0 0 1-4.667 4.667H5.333a4.667 4.667 0 0 1-4.667-4.667V5.334A4.667 4.667 0 0 1 5.333.667z" style="stroke:var(--color2, #e9c125)"/>
       <path fill="none" stroke="#fffdfd" stroke-linecap="round" stroke-width="1.333" d="M7.5 9.5h17m-17 12h17m-17-6h17" style="stroke:var(--color3, #fffdfd)"/>
     </symbol>
+    <symbol id="icon-back-arrow" viewBox="0 0 24 24" fill="none">
+      <path d="M16 19.5L8 12L16 4.5" stroke="#FFFDFD" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
   </defs>
 </svg>
